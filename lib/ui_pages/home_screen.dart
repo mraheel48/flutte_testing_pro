@@ -1,4 +1,4 @@
-import 'package:flutte_testing_pro/display_screen_size.dart';
+import 'package:flutte_testing_pro/utils_pak/display_screen_size.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
