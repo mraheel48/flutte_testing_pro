@@ -1,3 +1,4 @@
+import 'package:flutte_testing_pro/ui_pages/art_testing.dart';
 import 'package:flutte_testing_pro/ui_pages/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
+      home: const ArtTesting(),
     );
   }
 }
