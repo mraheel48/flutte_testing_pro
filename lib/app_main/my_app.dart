@@ -1,5 +1,4 @@
 import 'package:flutte_testing_pro/ui_pages/art_testing.dart';
-import 'package:flutte_testing_pro/ui_pages/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
       home: const ArtTesting(),
