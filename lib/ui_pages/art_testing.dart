@@ -101,9 +101,605 @@ class _ArtTestingState extends State<ArtTesting> {
                 ),
               ),
               Container(
-                  width: DisplayScreenSize.displayWidth(context),
-                  height: DisplayScreenSize.displayHeight(context) * 0.84,
-                  color: Colors.deepOrange),
+                width: DisplayScreenSize.displayWidth(context) * 0.90,
+                height: DisplayScreenSize.displayHeight(context) * 0.84,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    Container(
+                      width: DisplayScreenSize.displayWidth(context) * 0.60,
+                      child: SizedBox(
+                        height: DisplayScreenSize.displayHeight(context) * 0.84,
+                        child: ListView(
+                          children: [
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Container(
+                                decoration: background(Str.recImage),
+                                height:
+                                    DisplayScreenSize.displayHeight(context) *
+                                        0.08,
+                                width: DisplayScreenSize.displayWidth(context) *
+                                    0.30,
+                                child: Row(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      "a fictional character riding a motor bike",
+                                      style: TextStyle(
+                                          fontFamily: Str.fontName,
+                                          fontSize:
+                                              DisplayScreenSize.displayWidth(
+                                                      context) *
+                                                  0.025,
+                                          color: Colors.white),
+                                    ),
+                                    const Padding(
+                                      padding: EdgeInsets.only(right: 8.0),
+                                      child: Icon(Icons.send),
+                                    )
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                    Container(
+                      width: DisplayScreenSize.displayWidth(context) * 0.30,
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Container(
+                            width: 150,
+                            height: 150,
+                            decoration: background(Str.img1),
+                          ),
+                          Container(
+                            width: 150,
+                            height: 150,
+                            decoration: background(Str.img2),
+                          ),
+                          Container(
+                            width: 150,
+                            height: 150,
+                            decoration: background(Str.img3),
+                          ),
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
             ],
           ),
         ),
