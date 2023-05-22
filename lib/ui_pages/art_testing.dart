@@ -22,7 +22,7 @@ class _ArtTestingState extends State<ArtTesting> {
             children: [
               Container(
                 width: DisplayScreenSize.displayWidth(context),
-                height: DisplayScreenSize.displayHeight(context) * 0.20,
+                height: DisplayScreenSize.displayHeight(context) * 0.16,
                 child: Column(
                   children: [
                     Padding(
@@ -46,72 +46,51 @@ class _ArtTestingState extends State<ArtTesting> {
                       child: Container(
                         width: DisplayScreenSize.displayWidth(context) * 0.90,
                         height: DisplayScreenSize.displayHeight(context) * 0.10,
-                        decoration: background(Str.recImage),
                         child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Container(
+                              decoration: background(Str.recImage),
                               width: DisplayScreenSize.displayWidth(context) *
-                                  0.60,
+                                  0.55,
                               child: SizedBox(
                                 height:
                                     DisplayScreenSize.displayHeight(context) *
-                                        0.10,
+                                        0.08,
                                 child: const Center(
                                   child: TextField(
                                     decoration: InputDecoration(
                                       contentPadding:
-                                          EdgeInsets.symmetric(vertical: 100.0),
-                                      border: OutlineInputBorder(
-                                        borderSide:
-                                            BorderSide(color: Colors.green),
-                                      ),
+                                          EdgeInsets.only(left: 16.0),
+                                      hintText:
+                                          'a bird eye view of futuristic mars city',
+                                      hintStyle: TextStyle(
+                                          fontSize: 15, color: Colors.white),
+                                      border: InputBorder.none,
                                     ),
                                   ),
                                 ),
-                                /* child: const TextField(
-                                  decoration: InputDecoration(
-                                    contentPadding: EdgeInsets.symmetric(
-                                        vertical: 40.0, horizontal: 10.0),
-                                    hintText: 'Hint Text',
-                                    border: OutlineInputBorder(
-                                        borderSide: BorderSide(
-                                            color: Colors.green)
-                                    ),
-                                  ),
-                                ),*/
                               ),
                             ),
                             Container(
-                              color: Colors.green,
+                              decoration: BoxDecoration(
+                                color: Colors.brown,
+                                borderRadius: BorderRadius.circular(5),
+                              ),
+                              height: DisplayScreenSize.displayHeight(context) *
+                                  0.08,
                               width: DisplayScreenSize.displayWidth(context) *
                                   0.30,
-                              child: SizedBox(
-                                height:
-                                    DisplayScreenSize.displayHeight(context) *
-                                        0.10,
-                                child: const Center(
-                                  child: TextField(
-                                    decoration: InputDecoration(
-                                      contentPadding:
-                                          EdgeInsets.symmetric(vertical: 100.0),
-                                      border: OutlineInputBorder(
-                                        borderSide:
-                                            BorderSide(color: Colors.green),
-                                      ),
-                                    ),
-                                  ),
+                              child: Center(
+                                child: Text(
+                                  "Generate",
+                                  style: TextStyle(
+                                      fontFamily: Str.fontName,
+                                      fontSize: DisplayScreenSize.displayWidth(
+                                              context) *
+                                          0.04,
+                                      color: Colors.white),
                                 ),
-                                /* child: const TextField(
-                                  decoration: InputDecoration(
-                                    contentPadding: EdgeInsets.symmetric(
-                                        vertical: 40.0, horizontal: 10.0),
-                                    hintText: 'Hint Text',
-                                    border: OutlineInputBorder(
-                                        borderSide: BorderSide(
-                                            color: Colors.green)
-                                    ),
-                                  ),
-                                ),*/
                               ),
                             ),
                           ],
@@ -123,7 +102,7 @@ class _ArtTestingState extends State<ArtTesting> {
               ),
               Container(
                   width: DisplayScreenSize.displayWidth(context),
-                  height: DisplayScreenSize.displayHeight(context) * 0.80,
+                  height: DisplayScreenSize.displayHeight(context) * 0.84,
                   color: Colors.deepOrange),
             ],
           ),
